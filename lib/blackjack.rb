@@ -51,5 +51,6 @@ end
 
 def runner
   welcome method
+  initial_round method
 end
     
