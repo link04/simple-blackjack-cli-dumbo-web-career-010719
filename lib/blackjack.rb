@@ -35,6 +35,7 @@ def hit?
     puts "Got it."
   else
     invalid_command
+    prompt_user
   end
   
 end
