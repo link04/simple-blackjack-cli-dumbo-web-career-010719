@@ -31,8 +31,10 @@ def hit?
   answer = get_user_input
   if answer == "h"
     deal_card
-  else if answer == "s"
+  elsif answer == "s"
     puts "Got it."
+  else
+    
   end
   
 end
