@@ -34,7 +34,7 @@ def hit?
   elsif answer == "s"
     puts "Got it."
   else
-    
+    #invalid_command
   end
   
 end
