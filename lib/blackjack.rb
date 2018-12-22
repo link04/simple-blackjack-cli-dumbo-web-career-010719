@@ -31,7 +31,7 @@ def hit?
   answer = get_user_input
   if answer == "h"
     deal_card
-  else
+  else if answer == "s"
     
   end
   
