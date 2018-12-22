@@ -31,9 +31,9 @@ end
 def hit?
   prompt_user
   get_user_input
-  if answer == "h"
+  if get_user_input == "h"
     deal_card
-  elsif answer == "s"
+  elsif get_user_input == "s"
     puts "Got it."
   else
     invalid_command
