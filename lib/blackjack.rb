@@ -32,7 +32,7 @@ def hit?(card_total)
   prompt_user
   answer = get_user_input
   if answer == "h"
-    deal_card
+   card_total = card_total + deal_card
   elsif answer == "s"
     puts "Type 'h' to hit or 's' to stay"
   else
