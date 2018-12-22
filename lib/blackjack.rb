@@ -49,7 +49,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(card_total)
+def runner
   cards = card_total
   until cards > 21
     welcome method
