@@ -50,9 +50,17 @@ end
 #####################################################
 
 def runner
-  welcome method
-  initial_round method
-  hit?
-  display_card_total
+  until card_total > 21
+    welcome method
+    initial_round method
+    hit?
+    display_card_total
+  end
+   if(card_total >21)
+    welcome method
+    initial_round method
+    hit?
+    display_card_total
+else
 end
     
