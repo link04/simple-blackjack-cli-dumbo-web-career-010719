@@ -50,7 +50,7 @@ end
 #####################################################
 
 def runner
-  cards = card_total
+  cards = display_card_total
   until cards > 21
     welcome method
     initial_round method
