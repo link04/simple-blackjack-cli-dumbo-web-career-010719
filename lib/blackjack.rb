@@ -30,7 +30,7 @@ end
 
 def hit?
   prompt_user
-  answer = get_user_input
+  get_user_input
   if answer == "h"
     deal_card
   elsif answer == "s"
