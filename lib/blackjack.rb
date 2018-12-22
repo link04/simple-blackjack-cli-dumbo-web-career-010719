@@ -50,8 +50,8 @@ end
 #####################################################
 
 def runner(card_total)
-  card_total = card_total
-  until card_total > 21
+  cards = card_total
+  until cards > 21
     welcome method
     initial_round method
     hit?
