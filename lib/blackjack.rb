@@ -51,7 +51,7 @@ end
 
 def runner
   
-  until card_total > 21
+  until hit? > 21
     welcome method
     initial_round method
     hit?
