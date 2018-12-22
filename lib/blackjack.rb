@@ -36,8 +36,9 @@ def hit?(card_total)
   elsif answer == "s"
     puts "Type 'h' to hit or 's' to stay"
   else
-    invalid_command
     prompt_user
+    invalid_command
+    
   end
   return card_total
 end
