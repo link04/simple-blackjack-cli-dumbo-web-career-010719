@@ -56,6 +56,7 @@ def runner
     initial_round method
     hit?
     display_card_total
+    
   end
    end_game 
 end
