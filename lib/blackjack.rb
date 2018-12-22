@@ -37,6 +37,7 @@ def hit?
     invalid_command
     prompt_user
   end
+  card_total
   
 end
 
