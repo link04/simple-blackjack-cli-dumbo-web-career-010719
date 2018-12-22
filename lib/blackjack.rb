@@ -24,7 +24,7 @@ end
 
 def initial_round
   total = deal_card + deal_card)
-    returndisplay_card_total(total)
+  return isplay_card_total(total)
 
 end
 
