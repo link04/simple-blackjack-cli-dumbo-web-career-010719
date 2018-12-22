@@ -55,7 +55,7 @@ def runner
     welcome method
     initial_round method
     hit?(initial_round)
-    display_card_total
+    display_card_total( hit?(initial_round))
   end
    end_game(hit?(initial_round))
 end
