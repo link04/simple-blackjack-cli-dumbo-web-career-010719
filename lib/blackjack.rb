@@ -50,8 +50,8 @@ end
 #####################################################
 
 def runner
-  
-  until hit?(initial_round)> 21
+  card_total = hit?(initial_round)
+  until > 21
     welcome method
     initial_round method
     hit?(initial_round)
