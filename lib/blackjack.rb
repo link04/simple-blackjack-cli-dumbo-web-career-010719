@@ -57,5 +57,5 @@ def runner
     hit?(initial_round)
     display_card_total
   end
-   end_game( hit?(initial_round))
+   end_game(hit?(initial_round))
 end
