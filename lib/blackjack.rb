@@ -53,5 +53,6 @@ def runner
   welcome method
   initial_round method
   hit?
+  display_card_total
 end
     
