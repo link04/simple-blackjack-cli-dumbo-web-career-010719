@@ -32,7 +32,7 @@ def hit?
   if answer == "h"
     deal_card
   else if answer == "s"
-    
+    puts "Got it."
   end
   
 end
